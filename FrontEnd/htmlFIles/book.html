@@ -15,9 +15,14 @@
             body{
                 background-color: black;
             }
+            
             #nav{
                 background-color: black;
 
+            }
+            .container{
+                max-width: 1200px;
+                margin: 0 auto;
             }
             #home{
                 font-family: 'Montserrat', sans-serif;
@@ -55,6 +60,7 @@
             #txt3{
                 font-size: 2.5rem;
                 color: white;
+                font-family: 'Poppins', sans-serif;
             }
             #card{
                 background-color: #585858;
@@ -63,6 +69,7 @@
             #input{
                 background-color: #585858;
                 padding: 10px 5px;
+                font-family: 'Montserrat', sans-serif;
                 border: none;
                 border-bottom: 2px solid #00FF99;
             }
@@ -76,10 +83,25 @@
             }
             form a{
                 background-color: #00FF99;
-                color: white;
+                color: black;
+                font-weight: bolder;
                 margin: 10px;
+                font-family: 'Montserrat', sans-serif;
                 margin-left: 20rem;
+                margin-top: 24px;
             }
+            #input-lat{
+                background-color: #585858;
+                padding: 10px 5px;
+                border: none;
+                font-family: 'Montserrat', sans-serif;
+                border-bottom: 2px solid #00FF99;
+                margin-right: 10px;
+            }
+            #input-lat::placeholder{
+                color: white;
+            }
+
         </style>
     </head>
     <body>
@@ -122,6 +144,10 @@
                         <form>
                             <div class="form-group">
                               <input type="text"  class="form-control" id="input"  placeholder="Enter Pickup Point">
+                            </div>
+                            <div class="form-group d-flex flex-row">
+                                <input type="number" class="form-control" id="input-lat" placeholder="Latitude">
+                                <input type="number" class="form-control" id="input" placeholder="Longitude">
                             </div>
                             <div class="form-group">
                               <input type="text" class="form-control" id="input" placeholder="Enter Destination Point">
