@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style media="screen">
+            body{
+                background-color: black;
+            }
+            #nav{
+                background-color: black;
+
+            }
+            #home{
+                font-family: 'Montserrat', sans-serif;
+                transition: all .2s;
+            }
+            #home:hover{
+                color: #00BA06;
+                transition: all .2s;
+            }
+            #txt{
+                padding-top: 5rem;
+                font-size: 4rem;
+                padding-bottom: 30px;
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                outline: none;
+            }
+            #txt:hover{
+                color: #00BA06;
+            }
+            #txt2{
+                color: #00FF99;
+                padding-bottom: 3rem;
+            }
+            #first{
+                padding-top: 5rem;
+                height: 90vh;
+            }
+            #atag:hover{
+                outline:none;
+                text-decoration: none;
+                border: none;
+                color:#00FF99;
+            }
+            #txt3{
+                font-size: 2.5rem;
+                color: white;
+            }
+            #card{
+                background-color: #585858;
+                border-radius: 20px;
+            }
+            #input{
+                background-color: #585858;
+                padding: 10px 5px;
+                border: none;
+                border-bottom: 2px solid #00FF99;
+            }
+            #input:focus,textarea:focus{
+                outline: none;
+                text-decoration: none;
+                color: white;
+            }
+            #input::placeholder{
+                color: white;
+            }
+            form a{
+                background-color: #00FF99;
+                color: white;
+                margin: 10px;
+                margin-left: 20rem;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom" id="nav">
+            <div class="container">
+                <img src="../src/images/logo.png" id="logo" width="160" height="60" alt="">
+                  <ul class=" container d-flex justify-content-lg-end navbar-nav mr-auto ">
+                    <li class="nav-item active mx-2 h4">
+                      <a class="nav-link"  id="home" href="../htmlFIles/landing.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container d-flex justify-content-center" id="first">
+
+            <div class="container pt-5 ">
+                <img src="../src/images/Artwork 2.png" width="560" height="360" id="img2"alt="">
+            </div>
+            <div class="container pt-5">
+                <a href="#bookhere" id="atag"><h1 class="text-right" id="txt">Book Your Ride</h1></a>
+                <p id="txt2" class="lead text-right">Experience the best texi service and Get your taxi on pickup point
+                     within 5 minutes of your booking.
+                </p>
+            </div>
+            
+            
+        </div>
+
+        <div class="container pb-5">
+            <a name="bookhere" href=""></a>
+            <h2 id="txt3">Enter Booking Details</h2>
+        </div>
+
+        <div class="container d-flex justify-content-center">
+            <div class="card w-75" id="card">
+                <div class="card-body">
+                    
+                        <form>
+                            <div class="form-group">
+                              <input type="text"  class="form-control" id="input"  placeholder="Enter Pickup Point">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="input" placeholder="Enter Destination Point">
+                            </div>
+                            <a href="../htmlFIles/taxi.html" class="btn">Search Ride</a>
+                        </form>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        
+        <script src="" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

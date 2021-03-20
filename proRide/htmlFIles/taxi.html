@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style media="screen">
+            body{
+                background-color: black;
+            }
+            #nav{
+                background-color: black;
+            }
+            #home{
+                font-family: 'Montserrat', sans-serif;
+                transition: all .2s;
+            }
+            #home:hover{
+                color: #00BA06;
+                transition: all .2s;
+            }
+            #txt{
+                padding-top: 2rem;
+                font-size: 2rem;
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                outline: none;
+            }
+            hr{
+                padding-top: 0;
+                border-top: 3px solid #00FF99;
+                width: 25%;
+                margin-left: 0;
+            }
+            #card-cont{
+                padding: 20px 0;
+            }
+            #card{
+                background-color: #585858;
+                border-radius: 20px;
+
+            }
+            #header{
+                color: white;
+            }
+
+            #card-body{
+                color: white;
+            }
+            #card-body a{
+                font-size: 20px;
+                margin-right: 0;
+                margin-left: 60rem;
+                background-color: #00FF99;
+                color: white;
+                border-radius: 20px;
+            }
+            #card-body a:hover{
+                background-color: #00BA06;
+                transition: all ease .2s;
+            }
+            #price{
+                font-weight: bolder;
+            }
+            #price span{
+                color: #00FF99;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom" id="nav">
+            <div class="container">
+                <img src="../src/images/logo.png" id="logo" width="160" height="60" alt="">
+                  <ul class=" container d-flex justify-content-lg-end navbar-nav mr-auto ">
+                    <li class="nav-item active mx-2 h4">
+                      <a class="nav-link"  id="home" href="../htmlFIles/landing.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h2 id="txt">Taxi Available</h2>
+            <hr>
+        </div>
+
+        <div class="container" id="card-cont">
+            <div class="card w-100" id="card">
+                <div class="card-header" id="header">
+                    <h2>Swift Dezire</h2>
+                </div>
+                <div class="card-body" id="card-body">
+                    <h4>Car number: </h3>
+                    <h4>Driver name: </h3>
+                    <h4>Driver Mobile Number: </h3>
+                    <h4 id="price">price: <span>Rs 15/Km</span></h3>
+                    <a href="../htmlFIles/bill.html" class="btn">Book Ride</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container" id="card-cont" >
+            <div class="card w-100" id="card">
+                <div class="card-header" id="header">
+                    <h2>Swift Dezire</h2>
+                </div>
+                <div class="card-body" id="card-body">
+                    <h4>Car number: </h3>
+                    <h4>Driver name: </h3>
+                    <h4>Driver Mobile Number: </h3>
+                    <h4 id="price">price: <span>Rs 15/Km</span></h3>
+                    <a href="../htmlFIles/bill.html" class="btn">Book Ride</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container" id="card-cont">
+            <div class="card w-100" id="card">
+                <div class="card-header" id="header">
+                    <h2>Swift Dezire</h2>
+                </div>
+                <div class="card-body" id="card-body">
+                    <h4>Car number: </h3>
+                    <h4>Driver name: </h3>
+                    <h4>Driver Mobile Number: </h3>
+                    <h4 id="price">price: <span>Rs 15/Km</span></h3>
+                    <a href="../htmlFIles/bill.html" class="btn">Book Ride</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container" id="card-cont">
+            <div class="card w-100" id="card">
+                <div class="card-header" id="header">
+                    <h2>Swift Dezire</h2>
+                </div>
+                <div class="card-body" id="card-body">
+                    <h4>Car number: </h3>
+                    <h4>Driver name: </h3>
+                    <h4>Driver Mobile Number: </h3>
+                    <h4 id="price">price: <span>Rs 15/Km</span></h3>
+                    <a href="../htmlFIles/bill.html" class="btn">Book Ride</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="" async defer></script>
+    </body>
+</html>
