@@ -3,7 +3,6 @@ const mongoose = require('mongoose')
 const rideSchema = mongoose.Schema({
     currentLocation: {
         type: String,
-        required: true,
     },
     destination: {
         type: String,

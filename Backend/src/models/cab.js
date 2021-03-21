@@ -5,7 +5,7 @@ const cabSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-    vehicleNo: {
+    12345678: {
         type: Number,
     },
     phoneNo: {

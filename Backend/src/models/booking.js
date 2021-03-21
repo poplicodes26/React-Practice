@@ -1,16 +1,24 @@
 const mongoose = require('mongoose')
 
 const bookingSchema = mongoose.Schema({
-    customer: {
-        type: mongoose.Schema.Types.ObjectId, 
-        ref: 'Ride' 
+    pickUp: {
+        type: String, 
     },
-    driver: {
-        type: mongoose.Schema.Types.ObjectId, 
-        ref: 'Cab' 
+    dest: {
+        type: String, 
     },
-    price: {
-        type: Number
+    carNo: {
+        type: String, 
+    },
+    vehicle: {
+        type: String, 
+    },
+    Drinumber:{
+        type: Number,
+    },
+    driverID: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Cab'
     }
 })
 
