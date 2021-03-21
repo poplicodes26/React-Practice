@@ -13,14 +13,8 @@ const bookingSchema = mongoose.Schema({
     vehicle: {
         type: String, 
     },
-    driver :{
-        type: String,
-    },
-    number:{
+    Drinumber:{
         type: Number,
-    },
-    amount:{
-        type: Number
     },
     driverID: {
         type: mongoose.Schema.Types.ObjectId,
